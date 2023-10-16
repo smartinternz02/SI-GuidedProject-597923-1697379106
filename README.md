@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://raw.githubusercontent.com/smartinternz02/SI-GuidedProject-597923-1697379106/main/resources/images/project_logo.avif">
-    <img src="resources\images\project_logo.avif" alt="Logo" width="180" height="100">
+  <a href="https://raw.githubusercontent.com/smartinternz02/SI-GuidedProject-597923-1697379106/main/README_resources/project_logo.avif">
+    <img src="README_resources\project_logo.avif" alt="Logo" width="180" height="100">
   </a>
 
 <h2 align="center">Anticipating Business Bankruptcy</h3>
@@ -11,7 +11,7 @@
     <br/>
     <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106.git">Explore the docs</a>
     <strong> | </strong>
-    <a href="https://github.com/github_username/repo_name">View demo</a>
+    <a href="">View demo</a>
   </p>
 </div>
 
