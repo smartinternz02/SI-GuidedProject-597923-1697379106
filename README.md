@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="[resources\images\project_logo.avif](https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/resources/images/project_logo.avif)">
+  <a href="https://raw.githubusercontent.com/smartinternz02/SI-GuidedProject-597923-1697379106/main/resources/images/project_logo.avif">
     <img src="resources\images\project_logo.avif" alt="Logo" width="100" height="100">
   </a>
 
