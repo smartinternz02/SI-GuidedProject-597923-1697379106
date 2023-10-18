@@ -16,6 +16,7 @@
 <!--################################################################-->
 
 
+<hr>
 <!-- TABLE OF CONTENTS -->
 <details>
     <summary>Table of Contents</summary>
@@ -29,6 +30,7 @@
         <li><a href="#contributors">Contributors</a></li>
     </ol>
 </details>
+<hr>
 
 
 <!-------------------------------------------------------------------->
