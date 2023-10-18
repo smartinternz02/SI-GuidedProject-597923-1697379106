@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://raw.githubusercontent.com/smartinternz02/SI-GuidedProject-597923-1697379106/main/README_resources/project_logo.avif">
-    <img src="README_resources\project_logo.avif" alt="Logo" width="300" height="100">
+  <a href="https://raw.githubusercontent.com/smartinternz02/SI-GuidedProject-597923-1697379106/main/Resources/README_requirements/project_logo.avif">
+    <img src="Resources\README_requirements\project_logo.avif" alt="Logo" width="300" height="100">
   </a>
 
 <h1 align="center">Anticipating Business Bankruptcy</h3>
@@ -52,29 +52,17 @@ For nearly a century, the field of bankruptcy prediction has remained a prominen
 ## Contributors
 ### Team-592444
 <ul>
-    <li>
-        <a href="https://github.com/devanshu0602">Devanshu Gupta</a>
-    </li>
-    <li>
-        <a href="https://github.com/hussaintaniya">Taniya Hussain</a>
-    </li>
-    <li>
-        <a href="https://github.com/xDISStracted">Prakhar Vishwas</a>
-    </li>
-    <li>
-        <a href="https://github.com/vardhannnn">Jaivardhan Tamminana</a>
-    </li>
+    <li><a href="https://github.com/devanshu0602">Devanshu Gupta</a></li>
+    <li><a href="https://github.com/hussaintaniya">Taniya Hussain</a></li>
+    <li><a href="https://github.com/xDISStracted">Prakhar Vishwas</a></li>
+    <li><a href="https://github.com/vardhannnn">Jaivardhan Tamminana</a></li>
 </ul>
 
 <!-- Ideation Phase -->
 ## Ideation
 <ul>
-    <li>
-        Empathy Map Canvas:
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Empathy_Map_Canvas.pdf">Link</a>
+    <li>Empathy Map: <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Empathy_Map_Canvas.pdf">Link</a>
     </li>
-    <li>
-        Brainstorming & Idea Prioritization Map:
-        <a href="">Link</a>
+    <li>Brainstorming & Idea Prioritization Map: <a href="">Link</a>
     </li>
 </ul>
