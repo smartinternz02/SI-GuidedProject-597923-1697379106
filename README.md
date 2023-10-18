@@ -5,9 +5,8 @@
     <h1 align="center">Anticipating Business Bankruptcy</h1>
     <p align="center">
         Revolutionizing bankruptcy prediction in Polish firms for future financial clarity.
-        <br/>
-        <br/>
-        <a href="https://github.com/smartinternz02/   SI-GuidedProject-597923-1697379106.git">Explore the docs</a>
+        <br/><br/>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106.git">Explore the docs</a>
     </p>
 </div>
 
@@ -43,46 +42,74 @@ For nearly a century, the field of bankruptcy prediction has remained a prominen
 <!-- Ideation Phase -->
 ## Ideation
 <ul>
-    <li>Empathy Map: <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Empathy_Map_Canvas.pdf">Link</a></li>
-    <li>Brainstorming & Idea Prioritization Map: <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Brainstorming%20%26%20Idea%20prioritization.pdf">Link</a></li>
+    <li>
+        Empathy Map: 
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Empathy_Map_Canvas.pdf">Link</a>
+    </li>
+    <li>
+        Brainstorming & Idea Prioritization Map: 
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Brainstorming%20%26%20Idea%20prioritization.pdf">Link</a>
+    </li>
 </ul>
 
 <!-- Project Design Phase -->
 ## Project Design
 <ul>
-    <li>Proposed Solution: <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Proposed%20Solution.pdf">Link</a></li>
-    <li>Solution Architecture: <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Solution%20Architecture.pdf">Link</a></li>
-    <li>Data Flow Diagram: <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Data%20Flow%20Diagram.pdf">Link</a></li>
+    <li>
+        Proposed Solution: 
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Proposed%20Solution.pdf">Link</a>
+    </li>
+    <li>
+        Solution Architecture: 
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Solution%20Architecture.pdf">Link</a>
+    </li>
+    <li>
+        Data Flow Diagram: 
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Data%20Flow%20Diagram.pdf">Link</a>
+    </li>
 </ul>
 
 <!-- Project Planning -->
 ## Project Planning
 <ul>
-    <li>Technology Stack: <a href="">Link</a></li>
-    <li>Project Planning Details: <a href="">Link</a></li>
+    <li>
+        Technology Stack: 
+        <a href="">Link</a>
+    </li>
+    <li>
+        Project Planning Details: 
+        <a href="">Link</a>
+    </li>
 </ul>
 
 <!-- Project Development -->
 ## Project Development
 <ul>
-    <li>Project Manual: <a href="">Link</a></li>
+    <li>
+        Project Manual: 
+        <a href="">Link</a>
+    </li>
 </ul>
 
 <!-- Performance & Final Submission -->
 ## Performance & Final Submission
 <ul>
-    <li>Solution Performance: <a href="">Link</a></li>
-    <li>Project Documentation: <a href="">Link</a></li>
+    <li>
+        Solution Performance: 
+        <a href="">Link</a>
+    </li>
+    <li>
+        Project Documentation: 
+        <a href="">Link</a>
+    </li>
 </ul>
 
 <!-- Contributors -->
 ## Contributors 
-<strong> | </strong>
 <a href="https://github.com/devanshu0602">Devanshu Gupta</a>
-<strong> | </strong>
+<strong> • </strong>
 <a href="https://github.com/hussaintaniya">Taniya Hussain</a>
-<strong> | </strong>
+<strong> • </strong>
 <a href="https://github.com/xDISStracted">Prakhar Vishwas</a>
-<strong> | </strong>
+<strong> • </strong>
 <a href="https://github.com/vardhannnn">Jaivardhan Tamminana</a>
-<strong> | </strong>
