@@ -44,11 +44,11 @@ For nearly a century, the field of bankruptcy prediction has remained a prominen
 <ul>
     <li>
         Empathy Map: 
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Empathy_Map_Canvas.pdf">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/1.%20Ideation%20Phase/Empathy%20Map%20Canvas.pdf">Link</a>
     </li>
     <li>
         Brainstorming & Idea Prioritization Map: 
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Ideation_Phase/Brainstorming%20%26%20Idea%20prioritization.pdf">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/1.%20Ideation%20Phase/Brainstorming%20%26%20Idea%20prioritization.pdf">Link</a>
     </li>
 </ul>
 
@@ -57,15 +57,15 @@ For nearly a century, the field of bankruptcy prediction has remained a prominen
 <ul>
     <li>
         Proposed Solution: 
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Proposed%20Solution.pdf">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/2.%20Project%20Design%20Phase/Proposed%20Solution.pdf">Link</a>
     </li>
     <li>
         Solution Architecture: 
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Solution%20Architecture.pdf">Link</a>
+        <a href="">Link</a>
     </li>
     <li>
         Data Flow Diagram: 
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/Project_Design_Phase/Data%20Flow%20Diagram.pdf">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/2.%20Project%20Design%20Phase/Data%20Flow%20Diagram%20%26%20User%20Stories.pdf">Link</a>
     </li>
 </ul>
 
