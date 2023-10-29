@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import render_template
 from flask import request
+from flask import jsonify
 import pickle
 
 
@@ -10,7 +11,7 @@ model = pickle.load(open('XGB_model.pkl', 'rb'))
 
 @app.route('/')
 def start():
-    return render_template('/webapp/index.html')
+    return render_template('index.html')
 
 
 @app.route('/login', methods=['POST'])
@@ -26,15 +27,20 @@ def login():
     attr8 = float(request.form["attr8"])
     attr9 = float(request.form["attr9"])
     attr10 = float(request.form["attr10"])
+
     # Making an input array for the model
-    inputs = [[
-        attr1, attr2, attr3, attr4, attr5, 
-        attr6, attr7, attr8, attr9, attr10
-    ]]
+    inputs = [[attr1, attr2, attr3, attr4, attr5, attr6, attr7, attr8, attr9, attr10]]
+
     # Getting the prediction
-    output = model.predict(inputs)
+    prediction = model.predict(inputs)
+    print(prediction)
+    if prediction == 1:
+        output = "!! THE COMPANY CAN GO BANKRUPT !!"
+    else:
+        output = "!! THE COMPANY IS SAFE !!"
+
     # Returning the prediction
-    return render_template("index.html", y = output)
+    return jsonify({'y': output})
 
 
 if __name__ == '__main__':

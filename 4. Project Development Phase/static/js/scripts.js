@@ -57,3 +57,47 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+function showResult() {
+    var resultDiv = document.getElementById("result");
+    var resultText = document.getElementById("result-text");
+
+    var predictionText = "{{y}}";
+
+    resultText.textContent = predictionText;
+    resultDiv.style.display = "block";
+};
+
+
+function submitForm(event) {
+    // Prevent the default form submission behavior
+    event.preventDefault(); 
+
+    // Gather form data
+    var formData = new FormData(event.target);
+
+    // Send a POST request using AJAX
+    fetch('/login', {
+        method: 'POST',
+        body: formData
+    })
+        
+    // Assuming Flask returns JSON
+    .then(response => response.json())  
+    .then(data => {
+        var resultDiv = document.getElementById("result-text");
+        var resultDisplay = document.getElementById("result");
+
+        if (data.y === 1) {
+            resultDiv.textContent = "!! THE COMPANY CAN GO BANKRUPT !!";
+        } else {
+            resultDiv.textContent = "!! THE COMPANY IS SAFE !!";
+        }
+
+        resultDisplay.style.display = "block";
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+};
