@@ -58,38 +58,41 @@
                     <h2 class="mt-0">Unlock Insights</h2>
                     <p class="text-muted">Input Your Data</p>
                     <hr class="divider"/>
+                    <br>
                 </div>
                 <div>
                     <form onsubmit="submitForm(event)">
                         <div style="display: flex; justify-content: space-between;">
                             <div style="width: 48%;" class="align-items-center justify-content-center text-center">
-                                <p><h5>Attr1: </h5></p>
-                                <p><input type="text" name="attr1"/></p>
-                                <p><h5>Attr2: </h5></p>
-                                <p><input type="text" name="attr2"/></p>
-                                <p><h5>Attr3: </h5></p>
-                                <p><input type="text" name="attr3"/></p>
-                                <p><h5>Attr4: </h5></p>
-                                <p><input type="text" name="attr4"/></p>
-                                <p><h5>Attr5: </h5></p>
-                                <p><input type="text" name="attr5"/></p>
+                                <p>Available Cash:<br><input type="text" name="cash"/></p>
+                                <p>Short-term Securities:<br><input type="text" name="short_term_securities"/></p>
+                                <p>Receivables Short-term Liabilities:<br><input type="text" name="receivables_short_term_liabilities"/></p>
+                                <p>Operating Expenses Depreciation:<br><input type="text" name="operating_expenses_depreciation"/></p>
+                                <p>Retained Earnings:<br><input type="text" name="retained_earnings"/></p>
+                                <p>Total Assets:<br><input type="text" name="total_assets"/></p>
+                                <p>Net Profit:<br><input type="text" name="net_profit"/></p>
+                                <p>Depreciation:<br><input type="text" name="
+                                depreciation"/></p>
+                                <p>Total Liabilities:<br><input type="text" name="total_liabilities"/></p>
                             </div>
                             <div style="width: 48%;" class="align-items-center justify-content-center text-center">
-                                <p><h5>Attr6: </h5></p>
-                                <p><input type="text" name="attr6"/></p>
-                                <p><h5>Attr7: </h5></p>
-                                <p><input type="text" name="attr7"/></p>
-                                <p><h5>Attr8: </h5></p>
-                                <p><input type="text" name="attr8"/></p>
-                                <p><h5>Attr9: </h5></p>
-                                <p><input type="text" name="attr9"/></p>
-                                <p><h5>Attr10: </h5></p>
-                                <p><input type="text" name="attr10"/></p>
+                                <p>Financial Expenses:<br><input type="text" name="financial_expenses"/></p>
+                                <p>Operating Expenses:<br><input type="text" name="operating_expenses"/></p>
+                                <p>Profit on Operating Activities:<br><input type="text" name="profit_on_operating_activities"/></p>
+                                <p>Sales Cost of Products Sold:<br><input type="text" name="sales_cost_of_products_sold"/></p>
+                                <p>Profit on Sales:<br><input type="text" name="profit_on_sales"/></p>
+                                <p>Current Assets Inventory:<br><input type="text" name="current_assets_inventory"/></p>
+                                <p>Short-term Liabilities:<br><input type="text" name="short_term_liabilities"/></p>
+                                <p>Total Costs:<br><input type="text" name="total_costs"/></p>
+                                <p>Total Sales<br><input type="text" name="total_sales"/></p>
                             </div>
                         </div>
-                        <br>
                         <div class="align-items-center justify-content-center text-center">
-                            <input class="btn btn-primary btn-xl" type="submit" value="Submit" onclick="showResult()"/>
+                            <p>Sales:<br><input type="text" name="names" /></p>
+                        </div>
+                        <br><br>
+                        <div class="align-items-center justify-content-center text-center">
+                            <input class="btn btn-primary btn-xl" type="submit" value="Predict" onclick="showResult()"/>
                         </div>
                         <br>
                         <br>
