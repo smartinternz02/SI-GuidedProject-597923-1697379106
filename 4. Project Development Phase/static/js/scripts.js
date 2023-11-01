@@ -101,3 +101,35 @@ function submitForm(event) {
         console.error('Error:', error);
     });
 };
+
+
+function displayMessage(event) {
+    event.preventDefault();
+
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var company = document.getElementById("company");
+    var message = document.getElementById("message");
+
+    const success = document.getElementById("success");
+    const failure = document.getElementById("failure");
+
+    if (name.value != '' && email.value != '' && company.value != '' && message.value != '') {
+        success.style.display = 'block';
+
+        setTimeout(() => {
+            name.value = '';
+            email.value = '';
+            company.value = '';
+            message.value = '';
+        }, 4000);
+    }
+    else {
+        failure.style.display = 'block';
+    };
+
+    setTimeout(() => {
+        failure.style.display = 'none';
+        success.style.display = 'none';
+    }, 6000);
+};
