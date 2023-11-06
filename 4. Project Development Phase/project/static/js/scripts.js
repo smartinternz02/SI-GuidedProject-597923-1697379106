@@ -88,7 +88,7 @@ function submitForm(event) {
     var resultDisplay = document.getElementById("result");
 
     if (emptyField) {
-        resultDiv.textContent = "Please fill in all the input values.";
+        resultDiv.textContent = "Please fill in all the fields.";
         resultDiv.className = "failure";
         resultDiv.style.fontSize = "18px";
         resultDiv.style.color = "red";
