@@ -71,35 +71,53 @@ function showResult() {
 
 
 function submitForm(event) {
-    // Prevent the default form submission behavior
-    event.preventDefault(); 
+    event.preventDefault();
 
-    // Gather form data
     var formData = new FormData(event.target);
 
-    // Send a POST request using AJAX
+    var emptyField = false;
+
+    formData.forEach(function (value, key) {
+        if (value.trim() === '') {
+            emptyField = true;
+            return;
+        }
+    });
+
+    var resultDiv = document.getElementById("result-text");
+    var resultDisplay = document.getElementById("result");
+
+    if (emptyField) {
+        resultDiv.textContent = "Please fill in all the input values.";
+        resultDiv.className = "failure";
+        resultDiv.style.fontSize = "18px";
+        resultDiv.style.color = "red";
+        resultDiv.style.position = "center";
+        resultDiv.style.display = "block";
+        return;
+    }
+
     fetch('/login', {
         method: 'POST',
         body: formData
     })
-        
-    // Assuming Flask returns JSON
-    .then(response => response.json())  
-    .then(data => {
-        var resultDiv = document.getElementById("result-text");
-        var resultDisplay = document.getElementById("result");
 
-        if (data.y == "bankrupt") {
-            resultDiv.textContent = "!! THE COMPANY CAN GO BANKRUPT !!";
-        } else if (data.y == "safe") {
-            resultDiv.textContent = "!! THE COMPANY IS SAFE !!";
-        }
+        .then(response => response.json())
+        .then(data => {
+            var resultDiv = document.getElementById("result-text");
+            var resultDisplay = document.getElementById("result");
 
-        resultDisplay.style.display = "block";
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
+            if (data.y == "bankrupt") {
+                resultDiv.textContent = "!! THE COMPANY CAN GO BANKRUPT !!";
+            } else if (data.y == "safe") {
+                resultDiv.textContent = "!! THE COMPANY IS SAFE !!";
+            }
+
+            resultDisplay.style.display = "block";
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
 };
 
 
@@ -123,8 +141,7 @@ function displayMessage(event) {
             company.value = '';
             message.value = '';
         }, 4000);
-    }
-    else {
+    } else {
         failure.style.display = 'block';
     };
 
