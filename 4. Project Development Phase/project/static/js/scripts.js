@@ -69,7 +69,7 @@ function showResult() {
     resultDiv.style.display = "block";
 };
 
-
+/*
 function submitForm(event) {
     event.preventDefault();
 
@@ -108,9 +108,17 @@ function submitForm(event) {
             var resultDisplay = document.getElementById("result");
 
             if (data.y == "bankrupt") {
-                resultDiv.textContent = "!! THE COMPANY CAN GO BANKRUPT !!";
+                resultDiv.textContent = "🔴THE COMPANY CAN GO BANKRUPT🔴";
+                resultDiv.style.fontSize = "2rem";
+                resultDiv.style.color = "black";
+                resultDiv.style.fontFamily = "var(--bs-body-font-family)";
+                resultDiv.style.fontWeight = "bold";
             } else if (data.y == "safe") {
-                resultDiv.textContent = "!! THE COMPANY IS SAFE !!";
+                resultDiv.textContent = "🟢THE COMPANY IS SAFE🟢";
+                resultDiv.style.fontSize = "2rem";
+                resultDiv.style.color = "black";
+                resultDiv.style.fontFamily = "var(--bs-body-font-family)";
+                resultDiv.style.fontWeight = "bold";
             }
 
             resultDisplay.style.display = "block";
@@ -119,6 +127,90 @@ function submitForm(event) {
             console.error('Error:', error);
         });
 };
+*/
+
+function submitForm(event) {
+    event.preventDefault();
+
+    var formData = new FormData(event.target);
+    var emptyField = false;
+
+    // Define the names of the fields to check for zero values
+    var zeroCheckFields = [
+        "sales",
+        "operating_expenses_depreciation",
+        "total_assets",
+        "total_liabilities",
+        "financial_expenses",
+        "sales",
+        "short_term_liabilities",
+        "total_sales"
+    ];
+
+    formData.forEach(function (value, key) {
+        if (value.trim() === '') {
+            emptyField = true;
+            return;
+        }
+
+        if (zeroCheckFields.includes(key) && parseFloat(value) === 0) {
+            var resultDiv = document.getElementById("result-text");
+            var fieldName = key.replace(/_([a-z])/g, function (match, group1) {
+                return ' ' + group1.toUpperCase();
+            }).replace(/^(.)/, function (match, group1) {
+                return group1.toUpperCase();
+            });
+            resultDiv.textContent = "'" + fieldName + "' cannot be 0.";
+            resultDiv.style.fontSize = "18px";
+            resultDiv.style.color = "red";
+            resultDiv.style.textAlign = "center";
+            resultDiv.style.display = "block";
+            return;
+        }
+    });
+
+    if (emptyField) {
+        var resultDiv = document.getElementById("result-text");
+        resultDiv.textContent = "Please fill in all the fields.";
+        resultDiv.style.fontSize = "18px";
+        resultDiv.style.color = "red";
+        resultDiv.style.textAlign = "center";
+        resultDiv.style.display = "block";
+
+        return;
+    }
+
+    // If no empty fields and no zero-check failures, proceed with the AJAX request
+    fetch('/login', {
+        method: 'POST',
+        body: formData
+    })
+        .then(response => response.json())
+        .then(data => {
+            var resultDiv = document.getElementById("result-text");
+            var resultDisplay = document.getElementById("result");
+
+            if (data.y == "bankrupt") {
+                resultDiv.textContent = "🔴 THE COMPANY CAN GO BANKRUPT 🔴";
+                resultDiv.style.fontSize = "2rem";
+                resultDiv.style.color = "black";
+                resultDiv.style.fontFamily = "var(--bs-body-font-family)";
+                resultDiv.style.fontWeight = "bold";
+            } else if (data.y == "safe") {
+                resultDiv.textContent = "🟢 THE COMPANY IS SAFE 🟢";
+                resultDiv.style.fontSize = "2rem";
+                resultDiv.style.color = "black";
+                resultDiv.style.fontFamily = "var(--bs-body-font-family)";
+                resultDiv.style.fontWeight = "bold";
+            }
+
+            resultDisplay.style.display = "block";
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+};
+
 
 
 function displayMessage(event) {
