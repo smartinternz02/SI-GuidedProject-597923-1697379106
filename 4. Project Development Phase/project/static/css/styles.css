@@ -2329,7 +2329,7 @@ progress {
 }
 
 .formMessage .success {
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(5, 140, 21);
   position: absolute;
   transition: .3s;
@@ -2338,7 +2338,7 @@ progress {
 }
 
 .formMessage .failure {
-  font-size: 20px;
+  font-size: 18px;
   color: red;
   position: absolute;
   transition: .3s;
