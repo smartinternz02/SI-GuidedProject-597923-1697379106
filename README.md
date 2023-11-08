@@ -6,7 +6,9 @@
     <p align="center">
         Revolutionizing bankruptcy prediction in Polish firms for future financial clarity.
         <br/><br/>
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/tree/main/4.%20Project%20Development%20Phase/project">Explore the Project Files</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/tree/main/4.%20Project%20Development%20Phase/project">Explore Project Files</a>
+        <strong> | </strong>
+        <a href="https://business-bankruptcy-prediction.azurewebsites.net/">Visit Website</a>
     </p>
 </div>
 
