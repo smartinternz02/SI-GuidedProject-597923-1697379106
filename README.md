@@ -42,10 +42,10 @@ The web app allows you to make bankruptcy predictions using a simple and user-fr
 
 <ol>
     <li><strong>Access the Web App</strong></li>
-    <!-- <ul>
+    <ul>
         <li>To use the web app, click on the provided link. This will take you directly to the homepage of the website.</li>
-        <li>Access the website here: <a href="">Link</a></li>
-    </ul> -->
+        <li>Access the website here: <a href="https://business-bankruptcy-prediction.azurewebsites.net/">Link</a></li>
+    </ul>
     <li><strong>Homepage</strong></li>
     <ul>
         <li>
