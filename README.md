@@ -6,7 +6,7 @@
     <p align="center">
         Revolutionizing bankruptcy prediction in Polish firms for future financial clarity.
         <br/><br/>
-        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106.git">Explore the docs</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/tree/main/4.%20Project%20Development%20Phase/project">Explore the Project Files</a>
     </p>
 </div>
 
