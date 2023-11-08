@@ -114,7 +114,7 @@ That's it! You can easily navigate through the web app using the provided naviga
     </li>
     <li>
         Solution Architecture: 
-        <a href="">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/2.%20Project%20Design%20Phase/Solution%20Architecture.pdf">Link</a>
     </li>
     <li>
         Data Flow Diagram: 
@@ -127,11 +127,11 @@ That's it! You can easily navigate through the web app using the provided naviga
 <ul>
     <li>
         Technology Stack: 
-        <a href="">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/3.%20Project%20Planning%20Phase/Technology%20Stack.pdf">Link</a>
     </li>
     <li>
         Project Planning Details: 
-        <a href="">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/3.%20Project%20Planning%20Phase/Project%20Planning%20Details.pdf">Link</a>
     </li>
 </ul>
 
@@ -140,7 +140,7 @@ That's it! You can easily navigate through the web app using the provided naviga
 <ul>
     <li>
         Project Manual: 
-        <a href="">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/4.%20Project%20Development%20Phase/Project%20Manual.pdf">Link</a>
     </li>
 </ul>
 
@@ -149,11 +149,11 @@ That's it! You can easily navigate through the web app using the provided naviga
 <ul>
     <li>
         Solution Performance: 
-        <a href="">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/5.%20Performance%20%26%20Final%20Submission/Performance%20Testing.pdf">Link</a>
     </li>
     <li>
         Project Documentation: 
-        <a href="">Link</a>
+        <a href="https://github.com/smartinternz02/SI-GuidedProject-597923-1697379106/blob/main/5.%20Performance%20%26%20Final%20Submission/Project%20Report%20Documentation.pdf">Link</a>
     </li>
 </ul>
 
