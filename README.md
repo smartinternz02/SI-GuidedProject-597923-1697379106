@@ -68,7 +68,7 @@ The web app allows you to make bankruptcy predictions using a simple and user-fr
     <li><strong>Make a Prediction</strong></li>
     <ul>
         <li>In the prediction section, you will find input boxes where you can enter your values.</li>
-        <li>Please note that <i>all fields are required.</i></li>
+        <li>Please note that all fields are required.</li>
     </ul>
     <li><strong>Submit Your Prediction</strong></li>
     <ul>
